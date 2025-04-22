@@ -24,7 +24,13 @@
   height: 125px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 1440px) {
+  .main-items h1 {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 400px) {
   .main-items h1 {
     text-align: center;
     line-height: 50px;
